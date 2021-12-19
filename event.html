@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css">
     <title>JS Events</title>
 </head>
 <body>
@@ -11,21 +12,26 @@
         <h1>JavaScript Events</h1>
     </header>
     <main>
-        <h1>Add numbers:</h1>
+        <!-- <h1>Add numbers:</h1>
         <p>
             <input id="num-1"> + <input id="num-2">
         </p>
         <p id="add-sum"></p>
         <br>
-        <br>
+        <br> -->
+        
         <h4>Pictures</h4>
         <ul>
-            <li><a data-img="simon-pic" id="simon" href="#">Simon Cowell</a></li>
-            <li><a data-img="bruce-pic" id="bruce" href="#">Simon Cowell</a></li>
-            <li><a data-img="simon-pic" id="ben" href="#">Simon Cowell</a></li>
+            <li><a data-img="netherlands-pic" id="netherlands" href="#">Netherlands Picture</a></li>
+            <li><a data-img="france-pic" id="france" href="#">France Picture</a></li>
+            <li><a data-img="england-pic" id="england" href="#">England Picture</a></li>
         </ul>
-    </main>
 
+        <img class="hide" id="netherlands-pic" src="./images/holland.jpg">
+        <img class="hide" id="france-pic" src="./images/France.jpg" alt="france image">
+        <img class="hide" id="england-pic" src="./images/England.jpg" alt="england image">
+    </main>
+    
     <script src="event.js"></script>
 </body>
 </html>
