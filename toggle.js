@@ -1,6 +1,6 @@
 // Toggling the menu
 let menuElem = document.getElementById('sweeties');
-let titleElem = menuElem.querySelector('.title');
+let titleElem = document.querySelector('.title');
 titleElem.onclick = function(){
     menuElem.classList.toggle('open');
 };
